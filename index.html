@@ -172,7 +172,7 @@
             $await(growAnimate());
             $await(flowAnimate());
             $await(moveAnimate());
-            textAnimate().start();
+            $await(Jscex.Async.sleep(8000));
         }));
 
         runAsync().start();
