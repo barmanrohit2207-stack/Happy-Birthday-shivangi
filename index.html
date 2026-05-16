@@ -163,8 +163,9 @@
         }));
 
         var textAnimate = eval(Jscex.compile("async", function () {
-            $("#code").show().typewriter();
-        }));
+    $("#code").show().typewriter();
+    $("#clock-box").fadeIn(500);
+}));
 	    
         var runAsync = eval(Jscex.compile("async", function () {
             $await(seedAnimate());
