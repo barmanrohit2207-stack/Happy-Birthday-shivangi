@@ -9,7 +9,7 @@ body {
   font-size: 14px;
   font-family: sans-serif;
   color: white;
-  overflow: auto;
+  overflow: hidden;
 }
 
 a {
@@ -30,29 +30,31 @@ a {
 }
 
 #text {
-  width: 272px;
+  width: 300px;
   height: 560px;
-  left: 188px;
-  top: 180px;
+  left: 120px;
+  top: 150px;
   position: absolute;
+  z-index: 10;
 }
 
 #code {
   display: none;
   color: rgb(196, 255, 255);
   margin-top: 70px;
-  line-height: 25px;
-  font-size: larger;
-  font-weight: bolder;
+  line-height: 30px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 #clock-box {
   position: absolute;
-  left: 60px;
-  top: 550px;
-  font-size: 28px;
+  left: 80px;
+  top: 520px;
+  font-size: 30px;
   display: block;
   color: white;
+  z-index: 10;
 }
 
 #clock-box a {
@@ -61,11 +63,11 @@ a {
 }
 
 #clock {
-  margin-left: 48px;
+  margin-left: 20px;
 }
 
 #clock .digit {
-  font-size: 64px;
+  font-size: 50px;
 }
 
 #canvas {
