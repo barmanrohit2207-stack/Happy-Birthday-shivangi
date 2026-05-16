@@ -33,7 +33,7 @@ a {
   width: 272px;
   height: 560px;
   left: 188px;
-  top: 80px;
+  top: 180px;
   position: absolute;
 }
 
@@ -51,7 +51,8 @@ a {
   left: 60px;
   top: 550px;
   font-size: 28px;
-  display: none;
+  display: block;
+  color: white;
 }
 
 #clock-box a {
