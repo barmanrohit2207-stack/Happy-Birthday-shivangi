@@ -128,3 +128,20 @@ html, body{
 
   box-shadow:0 0 20px rgba(255,255,255,0.5);
   }
+#girl-photo2{
+  position:absolute;
+
+  top:220px;
+  left:420px;
+
+  width:190px;
+  height:auto;
+
+  z-index:999;
+
+  border-radius:20px;
+
+  transform:rotate(10deg);
+
+  box-shadow:0 0 20px rgba(255,255,255,0.5);
+}
