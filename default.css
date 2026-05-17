@@ -107,3 +107,17 @@ html, body{
   font-family:'Cormorant Garamond', serif;
   text-transform:uppercase;
 }
+#girl-photo{
+  position:fixed;
+  bottom:0;
+  right:0;
+
+  width:170px;
+  height:auto;
+
+  z-index:10;
+
+  border-radius:20px;
+
+  box-shadow:0 0 20px rgba(255,255,255,0.4);
+}
