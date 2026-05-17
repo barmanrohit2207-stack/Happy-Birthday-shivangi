@@ -114,15 +114,17 @@ html, body{
 #girl-photo{
   position:absolute;
 
-  bottom:20px;
-  right:20px;
+  bottom:10px;
+  right:10px;
 
-  width:170px;
+  width:240px;
   height:auto;
 
-  z-index:1000;
+  z-index:999;
 
   border-radius:20px;
 
+  transform:rotate(-8deg);
+
   box-shadow:0 0 20px rgba(255,255,255,0.5);
-}
+  }
