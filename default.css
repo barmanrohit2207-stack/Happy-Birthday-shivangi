@@ -54,7 +54,7 @@ body{
 
 #clock-box{
   position:absolute;
-  bottom:25px;
+  top:430px;
   left:50%;
   transform:translateX(-50%);
   width:95%;
