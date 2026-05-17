@@ -52,12 +52,12 @@ a {
 
 #clock-box {
   position: absolute;
-  left: 50px;
-  top: 500px;
-  display: none;
+  left: 40px;
+  top: 420px;
+  width: 90%;
   color: white;
-  font-family: 'Cormorant Garamond', serif;
-  text-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+  display: none;
+  z-index: 10;
 }
 
 .top-text {
