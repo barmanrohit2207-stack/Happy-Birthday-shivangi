@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
 
 *{
   margin:0;
@@ -12,7 +12,7 @@ body{
   background-position:center;
   background-repeat:no-repeat;
   overflow:hidden;
-  font-family:'Cormorant Garamond', serif;
+  font-family:'Cinzel', serif;
   color:white;
 }
 
@@ -30,8 +30,8 @@ body{
 
 #text{
   position:absolute;
-  top:120px;
-  left:70px;
+  top:110px;
+  left:60px;
   width:320px;
   z-index:20;
 }
@@ -39,9 +39,13 @@ body{
 #code{
   display:none;
   color:white;
-  font-size:28px;
-  line-height:45px;
-  text-shadow:0px 0px 10px rgba(255,255,255,0.4);
+  font-size:18px;
+  line-height:32px;
+  font-family:'Cinzel', serif;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  text-shadow:0px 0px 8px rgba(255,255,255,0.4);
 }
 
 .say{
@@ -50,7 +54,7 @@ body{
 
 #clock-box{
   position:absolute;
-  bottom:20px;
+  bottom:25px;
   left:50%;
   transform:translateX(-50%);
   width:95%;
@@ -61,22 +65,30 @@ body{
 
 .top-text{
   color:white;
-  font-size:20px;
-  margin-bottom:20px;
+  font-size:18px;
+  margin-bottom:18px;
+  font-family:'Cinzel', serif;
+  font-weight:600;
   letter-spacing:2px;
+  text-transform:uppercase;
 }
 
 #clock{
   display:flex;
   flex-direction:column;
+  align-items:center;
+  justify-content:center;
   gap:20px;
+  width:100%;
 }
 
 .time-row{
   display:flex;
   justify-content:center;
-  gap:30px;
+  align-items:center;
+  gap:25px;
   flex-wrap:wrap;
+  width:100%;
 }
 
 .time-box{
@@ -86,20 +98,23 @@ body{
 }
 
 .big-num{
-  font-size:48px;
+  font-size:52px;
   color:white;
-  font-weight:bold;
+  font-family:'Cinzel', serif;
+  font-weight:700;
   line-height:1;
 }
 
 .small-num{
-  font-size:34px;
+  font-size:40px;
 }
 
 .small-text{
-  font-size:18px;
+  font-size:16px;
   color:white;
-  margin-top:5px;
+  margin-top:4px;
+  font-family:'Cinzel', serif;
+  text-transform:uppercase;
 }
 
 #canvas{
