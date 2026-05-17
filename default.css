@@ -145,3 +145,20 @@ html, body{
 
   box-shadow:0 0 20px rgba(255,255,255,0.5);
 }
+#girl-photo3{
+  position:absolute;
+
+  bottom:120px;
+  left:60px;
+
+  width:300px;
+  height:auto;
+
+  z-index:999;
+
+  border-radius:20px;
+
+  transform:rotate(-12deg);
+
+  box-shadow:0 0 20px rgba(255,255,255,0.5);
+}
