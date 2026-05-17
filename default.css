@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
 
 *{
   margin:0;
@@ -50,28 +50,33 @@ body{
 
 #clock-box{
   position:absolute;
-  top:420px;
-  left:40px;
-  width:90%;
-  color:white;
+  bottom:20px;
+  left:50%;
+  transform:translateX(-50%);
+  width:95%;
   text-align:center;
   display:none;
-  z-index:10;
+  z-index:5;
 }
 
 .top-text{
-  font-size:28px;
   color:white;
-  margin-bottom:30px;
+  font-size:20px;
+  margin-bottom:20px;
   letter-spacing:2px;
-  text-shadow:0px 0px 10px rgba(255,255,255,0.5);
 }
 
 #clock{
   display:flex;
-  flex-wrap:wrap;
+  flex-direction:column;
+  gap:20px;
+}
+
+.time-row{
+  display:flex;
   justify-content:center;
-  gap:35px;
+  gap:30px;
+  flex-wrap:wrap;
 }
 
 .time-box{
@@ -81,17 +86,20 @@ body{
 }
 
 .big-num{
-  font-size:85px;
-  line-height:1;
+  font-size:48px;
   color:white;
   font-weight:bold;
-  text-shadow:0px 0px 15px rgba(255,255,255,0.5);
+  line-height:1;
+}
+
+.small-num{
+  font-size:34px;
 }
 
 .small-text{
-  font-size:28px;
+  font-size:18px;
   color:white;
-  margin-top:10px;
+  margin-top:5px;
 }
 
 #canvas{
