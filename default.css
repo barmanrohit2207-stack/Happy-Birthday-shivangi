@@ -112,6 +112,7 @@ html, body{
   text-transform:uppercase;
 }
 #girl-photo{
+  display:none;
   position:absolute;
 
   bottom:-30px;
@@ -129,6 +130,7 @@ html, body{
   box-shadow:0 0 20px rgba(255,255,255,0.5);
   }
 #girl-photo2{
+  display:none;
   position:absolute;
 
   top:620px;
@@ -146,6 +148,7 @@ html, body{
   box-shadow:0 0 20px rgba(255,255,255,0.5);
 }
 #girl-photo3{
+  display:none;
   position:absolute;
 
   bottom:120px;
