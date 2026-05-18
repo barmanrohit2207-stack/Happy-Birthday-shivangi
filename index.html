@@ -264,9 +264,10 @@
                 $await(flowAnimate());
 
                 textAnimate().start();
-                $("#girl-photo").fadeIn(2000);
-                $("#girl-photo2").fadeIn(2500);
-                $("#girl-photo3").fadeIn(3000);
+               
+                $("#girl-photo").animate({opacity:1},2000);
+                $("#girl-photo2").animate({opacity:1},2500);
+                $("#girl-photo3").animate({opacity:1},3000);
                 $await(moveAnimate());
 
             }));
