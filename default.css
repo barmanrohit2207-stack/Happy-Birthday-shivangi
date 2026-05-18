@@ -118,11 +118,11 @@ html, body{
   bottom:-30px;
   right:-30px;
 
-  opacity:0;
-
   width:300px;
   height:auto;
-
+  
+  opacity:0;
+  
   z-index:999;
 
   border-radius:20px;
@@ -138,10 +138,10 @@ html, body{
   top:620px;
   left:100px;
   
-  opacity:0;
-
   width:300px;
   height:auto;
+
+  opacity:0;
 
   z-index:999;
 
