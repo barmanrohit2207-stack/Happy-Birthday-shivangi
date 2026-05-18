@@ -118,6 +118,8 @@ html, body{
   bottom:-30px;
   right:-30px;
 
+  opacity:0;
+
   width:300px;
   height:auto;
 
@@ -135,6 +137,8 @@ html, body{
 
   top:620px;
   left:100px;
+  
+  opacity:0;
 
   width:300px;
   height:auto;
@@ -148,7 +152,6 @@ html, body{
   box-shadow:0 0 20px rgba(255,255,255,0.5);
 }
 #girl-photo3{
-  display:none;
   position:absolute;
 
   bottom:120px;
@@ -156,6 +159,8 @@ html, body{
 
   width:300px;
   height:auto;
+  
+  opacity:0;
 
   z-index:999;
 
